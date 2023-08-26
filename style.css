@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+body{
+    
+  background-image: url("photo.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+    border: 3px solid black;
+    height: 26rem;
+    width: 30rem;
+    margin-left: 34rem;
+    margin-top: 5rem;
+    background-color:cornflowerblue;
+    border-radius: 2rem;
+}
+
+.head{
+
+    text-align: center;
+    color: rgb(19, 15, 15);
+    font-weight: bold;
+    
+
+} 
+
+.min1{
+
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.min2{
+
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.link{
+
+    margin-top:1rem ;
+    margin-left: 1rem;
+}
+
+
+
+.label{
+
+    font-size:1.2rem;
+    color: #000000;
+    text-decoration: blanchedalmond;
+    font-weight: bold;
+
+}
+
+.input{
+
+    width: 28rem;
+    height: 2.4rem;
+    border-radius: 1rem;
+    border: none;
+
+
+}
+
+.btn{
+    height:35px;
+    width: 50%;
+    margin-left: 6rem;
+    background-color: blue;
+    color: white;
+    margin-top: 15px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+.New{
+    margin-left:  8.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    align-items: center;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f3;
+    box-shadow: rgba(0,0,0,0.1)0px 2px 4px 0px;
+}
+
+.nav-brand{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.search_input{
+    padding: 8px;
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+
+}
+.search_input:focus{
+    outline-color:cornflowerblue;
+}
+
+.search_button{
+    padding: 6px;
+    color: white ;
+    background-color:cornflowerblue;
+    height: 40px;
+    font-size: 15px;
+    width: 90px;
+    border-radius: 8px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.search_button:hover{
+    outline-color:cornflowerblue;  
+    background: white ;
+    color:cornflowerblue;
+    font-weight: bold;
+}
+
+
+.last_nav{
+    display: flex; 
+    list-style-type: none;
+    justify-content: space-between;
+    
+}
+
+.nav_item{
+    margin-left: 25px;
+
+}
+
+.nav_link{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out; 
+}
+
+.nav_link:hover{
+    color: white; 
+    background-color: cornflowerblue;
+}
+
+.active{
+    color: white; 
+    background-color:cornflowerblue
+    ;
+}
+::placeholder{
+
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+   
+}
